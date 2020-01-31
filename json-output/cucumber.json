@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Valide Login",
+        "description": "",
+        "id": "orangehrm-login-test;valide-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51785681800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20607200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user varifies page title",
+            "match": {
+              "location": "StepDefinition.user_varifies_page_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5267910200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "StepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 988240900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHrm Login Test",
+    "description": "",
+    "id": "orangehrm-login-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/kishan das/Desktop/TestNG/Final_Cucumber_BDD_POM/src/test/java/com/features/LoginPage.feature"
+  }
+]
